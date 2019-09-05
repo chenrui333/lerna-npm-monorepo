@@ -1,0 +1,27 @@
+{
+	"name": "lerna-tutorial",
+	"description": "lerna npm monorepo",
+	"version": "0.0.1",
+	"main": "index.js",
+	"keywords": [
+		"lerna",
+		"npm",
+		"monorepo"
+	],
+	"author": {
+		"name": "Rui Chen",
+		"email": "chenrui333@gmail.com",
+		"url": "https://chenrui.dev/"
+	},
+	"license": "MIT",
+	"scripts": {
+		"start": "npm -C ./packages/usage run start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chenrui333/lerna-npm-monorepo.git"
+	},
+	"devDependencies": {
+		"lerna": "3.16.4"
+	}
+}
